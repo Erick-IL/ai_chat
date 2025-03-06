@@ -1,4 +1,4 @@
-from models.ai_model import generate_and_send_responses
+from app.models.ai_model import generate_and_send_responses
 import asyncio
 
 async def run_node_process():
